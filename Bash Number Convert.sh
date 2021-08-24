@@ -28,6 +28,8 @@ deztobin () {
 d=$1
 
 until [ $d -eq 1 ]; do
+
+  echo $(($d/2))
   if [ $(($d%2)) == 0 ]; then
   
     b+=0
@@ -37,6 +39,7 @@ until [ $d -eq 1 ]; do
 
     b+=1
     let d=(d-1)/2
+
 
   fi
 
@@ -72,6 +75,7 @@ fi
     deztobin $num
   else
     echo "Sry, this type is invalid!"
+    exit 1
   fi
 
 exit
