@@ -29,7 +29,6 @@ d=$1
 
 until [ $d -eq 1 ]; do
 
-  echo $(($d/2))
   if [ $(($d%2)) == 0 ]; then
   
     b+=0
