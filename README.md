@@ -1,5 +1,5 @@
-# Bashnumberconvert
+# Bash Challenges
 
-A number converter that can convert numbers from decimal to binary and binary to decimal.
+Here is a small collection of challenges solved in Bash.
 
-100% written in Bash.
+Have fun!
